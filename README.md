@@ -93,9 +93,9 @@ describe("clear()") {
 
 ## Model
 
-Models end up being more case-by-case, but tend to follow the same format, and are broken into the following subgroups:
+Classes and structs in the model layer end up being more case-by-case, but tend to follow the same format, and are broken into the following subgroups:
 
-### Interactor 
+### Interactor (Service Objects)
 - Encapsulate an action into a nice-to-use API
     - eg: `Login.login(email:, password:)` does:
         - Fetch list of venues
